@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js:
+  - "6.10"
+before_install:
+  - npm config set @mulesoft:registry=https://npm.mulesoft.com/
+  - npm config set //npm.mulesoft.com/:_authToken=${NPM_TOKEN}
+before_script:
+  - curl -Lo travis_after_all.py https://git.io/vLSON
+script:
+  - npm run build
+after_success:
+  - python travis_after_all.py
+  - npm run semantic-release

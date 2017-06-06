@@ -1,0 +1,49 @@
+{
+  "name": "@mulesoft/api-console-assets",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Mulesoft"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "raml-js-parser": "advanced-rest-client/raml-js-parser#^2.0.1",
+    "raml-json-enhance": "advanced-rest-client/raml-json-enhance#^0.1.7",
+    "raml-path-selector": "advanced-rest-client/raml-path-selector#anypoint",
+    "raml-path-to-object": "advanced-rest-client/raml-path-to-object",
+    "raml-documentation-panel": "advanced-rest-client/raml-documentation-panel",
+    "raml-request-panel": "advanced-rest-client/raml-request-panel",
+    "raml-aware": "advanced-rest-client/raml-aware",
+    "response-view": "advanced-rest-client/response-view",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^1.5.0",
+    "paper-listbox": "PolymerElements/paper-listbox#^1.1.2",
+    "paper-item": "PolymerElements/paper-item#^1.2.1",
+    "paper-toast": "PolymerElements/paper-toast#^1.3.1",
+    "web-unzip": "advanced-rest-client/web-unzip#^0.1.3",
+    "raml-main-entry-lookup": "advanced-rest-client/raml-main-entry-lookup#^1.0.3",
+    "oauth2-scope-selector": "advanced-rest-client/oauth2-scope-selector#anypoint",
+    "auth-methods": "advanced-rest-client/auth-methods#anypoint",
+    "raml-request-parameters-editor": "advanced-rest-client/raml-request-parameters-editor#anypoint",
+    "authorization-panel": "advanced-rest-client/authorization-panel#anypoint",
+    "raml-headers-form": "advanced-rest-client/raml-headers-form#anypoint",
+    "raml-request-headers-editor": "advanced-rest-client/raml-request-headers-editor#anypoint",
+    "raml-body-editor-panel": "advanced-rest-client/raml-body-editor-panel#anypoint"
+  },
+  "resolutions": {
+    "auth-methods": "anypoint",
+    "raml-request-parameters-editor": "anypoint",
+    "oauth2-scope-selector": "anypoint",
+    "authorization-panel": "anypoint",
+    "raml-headers-form": "anypoint",
+    "raml-request-headers-editor": "anypoint",
+    "raml-path-selector": "anypoint",
+    "raml-body-editor-panel": "anypoint"
+  }
+}
