@@ -44,6 +44,8 @@
     "raml-headers-form": "anypoint",
     "raml-request-headers-editor": "anypoint",
     "raml-path-selector": "anypoint",
-    "raml-body-editor-panel": "anypoint"
+    "raml-body-editor-panel": "anypoint",
+    "raml-json-enhance": "^0.2.0",
+    "body-json-editor": "^0.2.0"
   }
 }
