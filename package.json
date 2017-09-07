@@ -1,17 +1,22 @@
 {
   "name": "api-console-assets",
-  "version": "0.1.0",
   "description": "This repo only exists to publish api console components to npm",
   "main": "index.js",
   "scripts": {
-    "build": "bower install && find ./bower_components -name package.json -exec rm {} \\;"
+    "build": "bower install && find ./bower_components -name package.json -exec rm {} \\;",
+    "semantic-release": "semantic-release pre && npm publish --tag=latest && semantic-release post"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mulesoft-labs/api-console-assets.git"
   },
+  "publishConfig": {
+      "registry": "https://npm.mulesoft.com/",
+      "tag": "latest"
+  },
   "author": "Mulesoft",
   "devDependencies": {
-    "bower": "^1.8.0"
+    "bower": "^1.8.0",
+    "semantic-release": "^6.3.6"
   }
 }
