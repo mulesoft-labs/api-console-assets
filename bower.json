@@ -35,7 +35,8 @@
     "raml-headers-form": "advanced-rest-client/raml-headers-form#anypoint",
     "raml-request-headers-editor": "advanced-rest-client/raml-request-headers-editor#anypoint",
     "raml-body-editor-panel": "advanced-rest-client/raml-body-editor-panel#anypoint",
-    "docs-parameters-table": "advanced-rest-client/docs-parameters-table#^1.1.39"
+    "docs-parameters-table": "advanced-rest-client/docs-parameters-table#^1.1.39",
+    "raml-docs-resource-viewer": "advanced-rest-client/raml-docs-resource-viewer#^1.0.22"
   },
   "resolutions": {
     "auth-methods": "anypoint",
