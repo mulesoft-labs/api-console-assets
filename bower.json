@@ -38,7 +38,8 @@
     "docs-parameters-table": "advanced-rest-client/docs-parameters-table#^1.1.39",
     "raml-docs-resource-viewer": "advanced-rest-client/raml-docs-resource-viewer#^1.0.22",
     "raml-request-url-editor": "advanced-rest-client/raml-request-url-editor#^0.1.17",
-    "anypoint-icons": "advanced-rest-client/anypoint-icons#^0.1.11"
+    "anypoint-icons": "advanced-rest-client/anypoint-icons#^0.1.11",
+    "anypoint-styles": "advanced-rest-client/anypoint-styles#^0.1.8"
   },
   "resolutions": {
     "auth-methods": "anypoint",
