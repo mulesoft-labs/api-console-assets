@@ -1,6 +1,8 @@
 module.exports.polymerPolyfillScript = function(basePath) {
   return `
     <script>
+      // reset amd methods to avoid conflicts with other libs
+      window.define = undefined;
       window.Polymer = {
         dom: 'shadow'
       };
