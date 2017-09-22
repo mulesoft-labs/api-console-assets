@@ -46,6 +46,7 @@ module.exports.imports = function(basePath) {
     <link rel="import" href="${basePath}/response-view/response-view.html">
     <link rel="import" href="${basePath}/anypoint-styles/colors.html">
     <link rel="import" href="${basePath}/anypoint-styles/typography.html">
+    <link rel="import" href="${basePath}/anypoint-styles/dropdown-menu.html">
     <link rel="import" href="${basePath}/iron-flex-layout/iron-flex-layout-classes.html">
     <link rel="import" href="${basePath}/raml-aware/raml-aware.html">
     <link rel="import" href="${basePath}/paper-toast/paper-toast.html">
