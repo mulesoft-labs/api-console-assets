@@ -15,14 +15,14 @@
   ],
   "dependencies": {
     "raml-js-parser": "advanced-rest-client/raml-js-parser#^2.0.1",
-    "raml-json-enhance": "advanced-rest-client/raml-json-enhance#^0.1.7",
+    "raml-json-enhance": "advanced-rest-client/raml-json-enhance#^0.2.8",
     "raml-path-selector": "advanced-rest-client/raml-path-selector#anypoint",
     "raml-path-to-object": "advanced-rest-client/raml-path-to-object",
     "raml-documentation-panel": "advanced-rest-client/raml-documentation-panel",
     "raml-request-panel": "advanced-rest-client/raml-request-panel",
     "raml-aware": "advanced-rest-client/raml-aware",
     "response-view": "advanced-rest-client/response-view",
-    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^1.5.0",
+    "paper-dropdown-menu": "advanced-rest-client/paper-dropdown-menu#^1.5.2",
     "paper-listbox": "PolymerElements/paper-listbox#^1.1.2",
     "paper-item": "PolymerElements/paper-item#^1.2.1",
     "paper-toast": "PolymerElements/paper-toast#^1.3.1",
@@ -41,7 +41,7 @@
     "anypoint-icons": "advanced-rest-client/anypoint-icons#^0.1.14",
     "anypoint-styles": "advanced-rest-client/anypoint-styles#^0.1.8",
     "response-status-view": "advanced-rest-client/response-status-view#^0.1.16",
-    "response-body-view": "advanced-rest-client/response-body-view#^0.1.15"    
+    "response-body-view": "advanced-rest-client/response-body-view#^0.1.15"
   },
   "resolutions": {
     "auth-methods": "anypoint",
@@ -52,7 +52,6 @@
     "raml-request-headers-editor": "anypoint",
     "raml-path-selector": "anypoint",
     "raml-body-editor-panel": "anypoint",
-    "raml-json-enhance": "^0.2.0",
     "body-json-editor": "^0.2.0"
   }
 }
