@@ -27,7 +27,7 @@
     "paper-checkbox": "advanced-rest-client/paper-checkbox#^1.9.1",
     "paper-dropdown-menu": "mulesoft/paper-dropdown-menu#^1.5.3",
     "paper-listbox": "PolymerElements/paper-listbox#^1.1.2",
-    "paper-input": "advanced-rest-client/paper-input#^1.9.1",
+    "paper-input": "advanced-rest-client/paper-input#^1.9.0",
     "paper-item": "PolymerElements/paper-item#^1.2.1",
     "paper-toast": "PolymerElements/paper-toast#^1.3.1",
     "web-unzip": "advanced-rest-client/web-unzip#^0.1.3",
@@ -39,7 +39,6 @@
     "anypoint-styles": "advanced-rest-client/anypoint-styles#^0.1.8",
     "response-status-view": "advanced-rest-client/response-status-view#^0.1.16",
     "response-body-view": "advanced-rest-client/response-body-view#^0.1.15",
-    "paper-input": "advanced-rest-client/paper-input#^1.9.0",
     "iron-validatable-behavior": "advanced-rest-client/iron-validatable-behavior#^1.9.0",
     "iron-validator-behavior": "advanced-rest-client/iron-validator-behavior#^1.9.0",
     "oauth2-scope-selector": "advanced-rest-client/oauth2-scope-selector#^1.0.6",
@@ -48,9 +47,15 @@
     "authorization-panel": "advanced-rest-client/authorization-panel#^0.5.14",
     "raml-headers-form": "advanced-rest-client/raml-headers-form#^0.3.2",
     "raml-request-headers-editor": "advanced-rest-client/raml-request-headers-editor#^0.3.4",
-    "raml-body-editor-panel": "advanced-rest-client/raml-body-editor-panel#^0.3.4",
+    "raml-body-editor-panel": "advanced-rest-client/raml-body-editor-panel#^0.3.4"
   },
   "resolutions": {
-    "raml-path-selector": "anypoint"
+    "raml-path-selector": "anypoint",
+    "raml-headers-form": "^0.3.2",
+    "oauth-authorization": "^0.2.3",
+    "authorization-panel": "^0.6.3",
+    "raml-request-url-editor": "^0.2.1",
+    "body-json-editor": "^0.2.0",
+    "raml-request-parameters-editor": "^0.3.2"
   }
 }
