@@ -38,6 +38,7 @@ module.exports.polymerPolyfillScript = function(basePath) {
 module.exports.imports = function(basePath) {
   return `
     <link rel="import" href="${basePath}/raml-path-selector/raml-path-selector.html">
+    <link rel="import" href="${basePath}/raml-path-to-object/raml-path-to-object.html">
     <link rel="import" href="${basePath}/raml-js-parser/raml-js-parser.html">
     <link rel="import" href="${basePath}/raml-json-enhance/raml-json-enhance.html">
     <link rel="import" href="${basePath}/raml-documentation-panel/raml-documentation-panel.html">
