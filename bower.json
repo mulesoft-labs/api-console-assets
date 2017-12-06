@@ -52,6 +52,7 @@
   },
   "resolutions": {
     "raml-path-selector": "anypoint",
-    "arc-icons": "^0.2.0"
+    "arc-icons": "^0.2.0",
+    "raml-json-enhance": "^0.3.2"
   }
 }
