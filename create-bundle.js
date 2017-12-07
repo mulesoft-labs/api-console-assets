@@ -7,5 +7,5 @@ builder({
   noOptimization: false,
   verbose: true
 })
-  .then(() => console.log('Build complete'))
-  .catch(error => console.log('Build error', error.message))
+.then(() => console.log('Build complete'))
+.catch(error => console.log('Build error', error.message))
