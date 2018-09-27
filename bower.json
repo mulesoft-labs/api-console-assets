@@ -46,11 +46,13 @@
     "raml-headers-form": "advanced-rest-client/raml-headers-form#^0.3.2",
     "raml-request-headers-editor": "advanced-rest-client/raml-request-headers-editor#^0.3.4",
     "raml-body-editor-panel": "advanced-rest-client/raml-body-editor-panel#^0.3.4",
-    "arc-icons": "advanced-rest-client/anypoint-icons#^0.2.0"
+    "arc-icons": "advanced-rest-client/anypoint-icons#^0.2.0",
+    "marked": "markedjs/marked#^0.5.0"
   },
   "resolutions": {
-    "raml-path-selector": "anypoint",
     "arc-icons": "^0.2.0",
-    "raml-json-enhance": "^0.4.0"
+    "marked": "^0.5.0",
+    "raml-json-enhance": "^0.4.0",
+    "raml-path-selector": "anypoint"
   }
 }
